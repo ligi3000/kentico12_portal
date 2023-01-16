@@ -1,0 +1,2 @@
+Following files were deleted and previous custom modified files were renamed to files with the '.deleted' extension.
+D:\web\kentico12_portal_06012023\CMS\App_Data\Templates\DancingGoatMvc\Template.zip

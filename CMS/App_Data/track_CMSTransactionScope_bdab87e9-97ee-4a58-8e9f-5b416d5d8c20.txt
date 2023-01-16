@@ -1,0 +1,21 @@
+
+----------------------------------------
+Track origin
+----------------------------------------
+Thread ID: 95
+Track started: 29/06/2017 14:31:37
+Reason: Transaction (Process ID 54) was deadlocked on lock resources with another process and has been chosen as the deadlock victim. Rerun the transaction.
+Stack trace: 
+
+TrackedSection.TrackOpenSections
+DataConnection.HandleDbError
+AbstractDataConnection.HandleError
+AbstractDataConnection.ExecuteQuery
+DataQueryBase`1.GetDataFromDB
+DataQueryBase`1.GetData
+DataQueryBase`1.get_Result
+ConnectionHelper.ExecuteQuery
+CMSAbstractQueryProperties.LoadData
+CMSQueryDataSource.GetDataSource
+CMSBaseDataSource.get_DataSource
+CMSWebParts_Viewers_Basic_BasicRepeater.OnPreRender

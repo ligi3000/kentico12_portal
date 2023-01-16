@@ -1,0 +1,27 @@
+
+----------------------------------------
+Track origin
+----------------------------------------
+Thread ID: 114
+Track started: 10/02/2021 15:42:46
+Reason: Transaction (Process ID 61) was deadlocked on lock resources with another process and has been chosen as the deadlock victim. Rerun the transaction.
+Stack trace: 
+
+TrackedSection.TrackOpenSections
+DataConnection.HandleDbError
+AbstractDataConnection.HandleError
+AbstractDataConnection.ExecuteQuery
+DataQueryBase`1.GetDataFromDB
+DataQueryBase`1.GetData
+DataQueryBase`1.get_Result
+ConnectionHelper.ExecuteQuery
+HitLogProcessor.SaveLogToDatabase
+HitLogProcessor.ProcessLogRecord
+HitLogProcessor.ProcessLog
+HitLogProcessor.ProcessFinishedLogs
+HitLogProcessor.Execute
+SchedulingExecutor.ExecuteTaskInternal
+SchedulingExecutor.ExecuteTask
+TaskExecutor.Run
+CMSThread.RunThread
+CMSThread.Run

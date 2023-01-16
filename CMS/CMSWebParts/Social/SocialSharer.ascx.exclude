@@ -1,0 +1,2 @@
+<%@ Control Language="C#" AutoEventWireup="true" Inherits="CMSWebParts_Social_SocialSharer" CodeFile="~/CMSWebParts/Social/SocialSharer.ascx.cs" %>
+<asp:Literal ID="ltlText" runat="server" EnableViewState="false" />

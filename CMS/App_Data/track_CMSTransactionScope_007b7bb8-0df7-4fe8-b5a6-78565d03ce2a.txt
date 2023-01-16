@@ -1,0 +1,28 @@
+
+----------------------------------------
+Track origin
+----------------------------------------
+Thread ID: 126
+Track started: 10/26/2020 10:05:45 AM
+Reason: Transaction (Process ID 53) was deadlocked on lock resources with another process and has been chosen as the deadlock victim. Rerun the transaction.
+Stack trace: 
+
+TrackedSection.TrackOpenSections
+DataConnection.HandleDbError
+AbstractDataConnection.HandleError
+AbstractDataConnection.ExecuteQuery
+DataQueryBase`1.GetDataFromDB
+DataQueryBase`1.GetData
+DataQueryBase`1.get_Result
+ConnectionHelper.ExecuteQuery
+TreeProvider.ExecuteQuery
+TreeProvider.GetDocumentTypeData
+TreeProvider.SelectNodes
+DocumentSearchIndexer.SelectSearchDocument
+SearchIndexer.DocumentUpdate
+DocumentSearchIndexer.ExecuteUpdateTask
+SearchIndexer.ExecuteTask
+SearchTaskInfoProvider.TaskIndexer
+SearchTaskInfoProvider.RunInternal
+CMSThread.RunThread
+CMSThread.Run

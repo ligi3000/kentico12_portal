@@ -1,0 +1,27 @@
+
+----------------------------------------
+Track origin
+----------------------------------------
+Thread ID: 21
+Track started: 10/7/2016 3:05:50 PM
+Reason: Transaction (Process ID 55) was deadlocked on lock resources with another process and has been chosen as the deadlock victim. Rerun the transaction.
+Stack trace: 
+
+TrackedSection.TrackOpenSections
+DataConnection.HandleDbError
+AbstractDataConnection.HandleError
+AbstractDataConnection.ExecuteQuery
+ConnectionHelper.ExecuteQuery
+PageInfoProvider.GetDataForPageInfo
+PageInfoProvider.GetPageInfo (2)
+PageInfoProvider.GetDataForPageInfoForUrl
+<>c__DisplayClass1.<GetPageInfoForUrl>b__0
+<>c__DisplayClass2`1.<Cache>b__0
+CachedSection`1.LoadDataHandled
+CacheHelper.Cache
+PageInfoProvider.GetPageInfoForUrl
+URLRewriter.RewriteUrl (2)
+AbstractHandler.CallEventHandler
+AbstractHandler.Raise
+SimpleHandler`2.RaiseExecute (2)
+SimpleHandler`2.StartEvent
